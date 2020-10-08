@@ -36,16 +36,7 @@ const getWeatherDetails = (cityName,nod)=> {
     if (data.readyState == 4 && data.status == 200) {
       const weatherDetails = JSON.parse(data.responseText);
       console.log(weatherDetails);   
-       
-//       usersList.forEach(item => {
-//    hairStyleGenerator(item);
-// });
-
-
-
-
-
-
+ 
 main.innerHTML= "";
 main= document.querySelector("main");
 
