@@ -148,7 +148,7 @@ div12.append(div5);div12.append(div6);div12.append(div7);
 
 main.append(div12);
 
-    }else{throw new Error("Enter correct details");}
+    }
   };
 
    const url="https://api.weatherapi.com/v1/forecast.json?key=d536bb89e8a24d87873140853200610&q="+cityName+"&days="+parseInt(nod);
