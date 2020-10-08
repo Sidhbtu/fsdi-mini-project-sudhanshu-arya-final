@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    
+    <!-- Image and text -->
+<nav class="navbar navbar-dark bg-primary ">
+  <a class="navbar-brand pl-5" href="#">
+    <img src="https://i.ibb.co/B6MzSdT/Anatomy-of-a-Sunset-2.jpg" width="30" height="30" class="d-inline-block align-top " alt="" loading="lazy">
+    
+  </a>
+  <span class="float-right pr-5 head">Weather Forecast</span>
+</nav>
+<div class="container mt-3 ">
+      <div class="row mb-2">
+    <div class="col-sm mb-2">
+     <div class="input-group flex-nowrap ">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping">City Name</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Delhi" aria-label="Username" aria-describedby="addon-wrapping" id="cityName" >
+  
+
+</div>
+    </div>
+    <div class="col-sm">
+    <!-- Default dropright button -->
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text " for="inputGroupSelect01">Number Of Days</label>
+  </div>
+  <select class="custom-select " id="inputGroupSelect01" disabled>
+    <option selected>3</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+</div>
+    </div>
+  </div>
+  <div class="row">
+    <button type="button" class="btn btn-outline-primary btn-lg btn-block" onclick="getWeather()">Know Weather</button>
+
+  </div>
+</div>
+<div class="container mt-3 border border-primary rounded-pill main">
+  <div class="row">
+  <div class="col-sm-8 offset-sm-2">
+<main class="" >
+
+
+</main>
+  </div>
+  </div>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
+

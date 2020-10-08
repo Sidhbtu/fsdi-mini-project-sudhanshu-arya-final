@@ -1,0 +1,48 @@
+/* .curr{
+  display: block;
+} */
+
+.curr , .currTemp{
+  height: 100px;
+  
+}
+
+.condition {
+  color: rgb(54, 15, 230);
+  padding-left: 15px;
+}
+.currTemp{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(188, 26, 209);
+}
+.curr{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+body{
+background-image: linear-gradient( to right , rgb(88, 124, 202) ,rgb(244, 246, 247),rgb(88, 156, 219));
+}
+
+.card{
+  width: 200px;
+  font-weight: bold;
+  border: 1px dotted rgb(9, 6, 241);
+  border-radius:  50% 20% / 10% 40%;
+  margin-bottom:15px ;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(201, 219, 241);
+}
+.main{
+  background-image: linear-gradient( to right ,  rgb(88, 124, 202) ,rgb(244, 246, 247),rgb(88, 156, 219));
+}
+
+
+.head{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+}
