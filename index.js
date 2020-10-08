@@ -14,7 +14,7 @@ try {
   getWeatherDetails(cityName.value,nod.value);
 }
 catch(err) {
-  console.error(err);
+  //console.error(err);
 }
 
 
@@ -139,7 +139,10 @@ div12.append(div5);div12.append(div6);div12.append(div7);
 
 main.append(div12);
 
-    }
+    }else if(data.readyState==4 && data.status == 400){
+      //throw new Error("Enter correct details");
+      alert("enter correct details");
+      }
   };
 
    const url="https://api.weatherapi.com/v1/forecast.json?key=d536bb89e8a24d87873140853200610&q="+cityName+"&days="+parseInt(nod);
